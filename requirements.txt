@@ -1,0 +1,12 @@
+
+# For direct model loading (not Ollama!)
+transformers>=4.36.0
+torch>=2.0.0
+safetensors>=0.4.0
+accelerate>=0.25.0
+bitsandbytes>=0.41.0  # For 8-bit quantization
+sentencepiece>=0.1.99  # For tokenization
+
+# For GGUF format (what Ollama uses)
+gguf>=0.6.0
+llama-cpp-python>=0.2.0
